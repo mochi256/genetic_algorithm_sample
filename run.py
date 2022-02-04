@@ -1,7 +1,7 @@
 import random
 import copy
 from classes import Genom
-from contants import (
+from constants import (
     GENERATE_GENOMS,
     GENOM_GENERATION,
     ELITE_GENOMS,

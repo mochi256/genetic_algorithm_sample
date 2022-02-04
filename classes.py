@@ -1,6 +1,6 @@
 import random
 import copy
-from contants import (
+from constants import (
     GENE_MAX,
     GENE_MUTATION
 )
