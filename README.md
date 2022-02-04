@@ -1,5 +1,5 @@
 # genetic_algorithm_sample
-genetic algorithm sample by python.
+genetic algorithm sample by python3.
 
 # usage
 execute the following command.
@@ -9,24 +9,24 @@ $ python3 run.py
 
 The following result will be output.
 ```
-1 generasion score:
+1 generasions score:
         high: 64
         median: 50
         low: 38
 
-2 generasion score:
+2 generasions score:
         high: 63
         median: 51
         low: 38
 
 ...
 
-100 generasion score:
+100 generasions score:
         high: 90
         median: 82
         low: 70
 
-last generasion score: 90
+last generasions score:
         high: 90
         median: 83
         low: 70

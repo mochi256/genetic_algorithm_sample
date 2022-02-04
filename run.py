@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import random
 import copy
 from classes import Genom
@@ -22,7 +24,7 @@ if __name__=='__main__':
         # sort the genome by score.
         current_genoms = sorted(current_genoms, key=extact_genom_score, reverse=True)
         # show score
-        print("{0} generasion score:".format(loop + 1))
+        print("{0} generasions score:".format(loop + 1))
         print("\thigh: {0}".format(current_genoms[0].get_score()))
         print("\tmedian: {0}".format(
             current_genoms[int(GENERATE_GENOMS / 2)].get_score()
@@ -72,7 +74,7 @@ if __name__=='__main__':
     
     # show the last score
     current_genoms = sorted(current_genoms, key=extact_genom_score, reverse=True)
-    print("last generasion score: {0}".format(current_genoms[0].get_score()))
+    print("last generasions score:")
     print("\thigh: {0}".format(current_genoms[0].get_score()))
     print("\tmedian: {0}".format(
         current_genoms[int(GENERATE_GENOMS / 2)].get_score()
